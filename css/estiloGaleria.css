@@ -1,0 +1,171 @@
+body{
+	margin: 0; 
+}
+
+header{
+	background-color: #171717; 
+	text-align: center; 
+	padding: 5px; 
+}
+
+.logo{
+	width: 350px;
+}
+
+nav{
+	text-align: center; 
+	background-color: #58044F;
+}
+
+nav ul{ 
+	list-style: none; 
+	padding: 5px;
+	margin: 0;
+}
+
+nav ul li{ 
+	display: inline-block; 
+}
+
+nav ul li a{
+	background-color: #171717;
+	color: #fff;
+	font-family: Arial;
+	width: 150px; 
+	display: block; 
+	margin: 5px; 
+	padding: 9px; 
+	text-decoration: none; 
+	border-radius: 5px;
+	border: 1px inset #F23AB8;
+}
+
+nav ul li a:hover{ 
+	background-color: #AB0D9A;
+}
+
+footer{
+	border-bottom: 2px inset #F23AB8;
+	border-top: 2px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	font-size: 25px;
+	background-color: #000;
+	margin: 0;
+	padding: 10px;
+}
+
+main{
+	background-color: #2A2A2A; 
+	padding: 5px;
+}
+
+.foto{
+	width: 84%;
+	margin: 10px;
+	display: inline-block;
+  	vertical-align: middle;
+  	border-radius: 10px;
+  	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	color: #fff;
+	font-size: 50px;
+}
+
+.titulo{
+	border: 5px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	background-color: #000;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 0px 5px;
+	margin: 5px auto;
+	margin-bottom: 10px;
+	width: 650px;
+}
+
+.cajaImg{
+	border: 5px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	background-color: #000;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: 10px;
+	margin-left: 25px;
+	margin-top: 0;
+	width: 600px;
+	height: 350px;
+	padding: 10px;
+	display: inline-block;
+  	vertical-align: middle;
+}
+
+/*Fonts*/
+@font-face{
+	font-family: 'WhiteSystematticDuo';
+	src: url(../fonts/WhiteSystematticDuo.ttf); 
+}
+
+
+@media screen and (min-width: 394px) and (max-width: 1159px) { 
+	.logo{
+		width: 250px;
+	}
+	.titulo{
+		width: 500px;
+	}
+	h1{
+		font-size: 40px;
+	}	
+	.foto{
+		width: 70%;
+	}
+	.cajaImg{
+		margin: 10px;
+		margin-left: 30px;
+		margin-top: 0;
+		width: 480px;
+		height: 250px;
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 668px) { 
+	.logo{
+		width: 150px;
+	}
+	nav ul li a{
+		width: 110px; 
+		padding: 5px; 
+		font-size: 13px;
+	}
+	.titulo{
+		width: 400px;
+	}
+	h1{
+		font-size: 30px;
+	}	
+	.foto{
+		width: 50%;
+	}
+	.cajaImg{
+		margin: 10px;
+		margin-left: 30px;
+		margin-top: 0;
+		width: 400px;
+		height: 150px;
+		padding: 10px;
+	}
+}
+
+
+
+
+

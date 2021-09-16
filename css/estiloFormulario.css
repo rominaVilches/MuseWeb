@@ -1,0 +1,184 @@
+body{
+	margin: 0; 
+}
+
+header{
+	background-color: #171717; 
+	text-align: center; 
+	padding: 5px; 
+}
+
+.logo{
+	width: 350px;
+}
+
+nav{
+	text-align: center; 
+	background-color: #58044F;
+}
+
+nav ul{ 
+	list-style: none; 
+	padding: 5px;
+	margin: 0;
+}
+
+nav ul li{ 
+	display: inline-block; 
+}
+
+nav ul li a{
+	background-color: #171717;
+	color: #fff;
+	font-family: Arial;
+	width: 150px; 
+	display: block; 
+	margin: 5px; 
+	padding: 9px; 
+	text-decoration: none; 
+	border-radius: 5px;
+	border: 1px inset #F23AB8;
+}
+
+nav ul li a:hover{ 
+	background-color: #AB0D9A;
+}
+
+footer{
+	border-bottom: 2px inset #F23AB8;
+	border-top: 2px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	font-size: 25px;
+	background-color: #000;
+	margin: 0;
+	padding: 10px;
+}
+
+main{
+	background-color: #2A2A2A; 
+	padding: 5px;
+}
+
+h1{
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	color: #fff;
+	font-size: 30px;
+}
+
+.label{
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	text-align: right;	
+	margin-right: 10px; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #DBBBE1;
+	font-weight: bold;
+}
+
+#form1{
+	width: 500px;
+	margin: 20px auto;
+	border: 5px inset #F23AB8;
+	color: #DDE1E1;
+	background-color: #000;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 20px 80px;
+}
+
+.d{
+	margin: 15px;
+}
+
+.btns{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.botones{
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 10px;
+	border: 3px inset #F23AB8;
+	background-color: #2A2A2A;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 5px 15px;
+}
+
+.botones:hover{
+	background-color: #AB0D9A;
+}
+
+.checks{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;	
+	font-family: Arial;
+
+}
+
+.gen{
+	font-family: Arial;
+}
+
+textarea{
+	height: 200px;
+}
+
+hr{
+	margin-bottom: 20px;
+}
+
+
+/*Fonts*/
+@font-face{
+	font-family: 'WhiteSystematticDuo';
+	src: url(../fonts/WhiteSystematticDuo.ttf); 
+}
+
+
+@media screen and (min-width: 394px) and (max-width: 1159px) { 
+	.logo{
+		width: 250px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 668px) { 
+	.logo{
+		width: 150px;
+	}
+	nav ul li a{
+		width: 110px; 
+		padding: 5px; 
+		font-size: 13px;
+	}
+	#form1{
+		width: 400px;
+		margin: 10px auto;
+		padding: 10px 20px;
+	}
+	.label{
+		display: inline-block;
+		width: 120px;	
+		margin-right: 20px; 
+		font-size: 13px;
+	}
+	h1{
+		font-size: 22px;
+	}
+}
+
+
+
+
+
+
+

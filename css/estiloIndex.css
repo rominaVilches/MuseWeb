@@ -1,0 +1,169 @@
+body{
+	margin: 0; 
+}
+
+header{
+	background-color: #171717; 
+	text-align: center; 
+	padding: 5px; 
+}
+
+.logo{
+	width: 350px;
+}
+
+nav{
+	text-align: center; 
+	background-color: #58044F;
+}
+
+nav ul{ 
+	list-style: none; 
+	padding: 5px;
+	margin: 0;
+}
+
+nav ul li{ 
+	display: inline-block; 
+}
+
+nav ul li a{
+	background-color: #171717;
+	color: #fff;
+	font-family: Arial;
+	width: 150px; 
+	display: block; 
+	margin: 5px; 
+	padding: 9px; 
+	text-decoration: none; 
+	border-radius: 5px;
+	border: 1px inset #F23AB8;
+}
+
+nav ul li a:hover{ 
+	background-color: #AB0D9A;
+}
+
+footer{
+	border-bottom: 2px inset #F23AB8;
+	border-top: 2px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	font-size: 25px;
+	background-color: #000;
+	margin: 0;
+	padding: 10px;
+}
+
+main{
+	background-color: #2A2A2A; 
+	padding: 5px;
+}
+
+#imgIndex{
+	width: 700px;
+	margin-left: 50px;
+}
+
+.subTit{
+	border: 3px inset #F23AB8;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #DDE1E1;
+	text-align: center;
+	font-family: WhiteSystematticDuo;
+	font-size: 25px;
+	background-color: #2A2A2A;
+	margin: 0;
+	padding: 10px 22px;
+}
+
+#list1{
+	display: inline-block;
+  	vertical-align: top;
+}
+
+main ul{
+	list-style: none; 
+	border: 5px inset #F23AB8;
+	color: #DDE1E1;
+	text-align: center;
+	background-color: #000;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 85px;
+	margin: 0;
+	margin-left: 40px;
+}
+
+main ul li{
+	padding: 10px;
+}
+main ul li a{
+	color: #E8BDE4;
+	font-family: Arial;
+	text-decoration: none; 	
+	padding: 8px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+main ul li a:hover{
+	border: 3px inset #F23AB8;
+	background-color: #2A2A2A;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+/*Fonts*/
+@font-face{
+	font-family: 'WhiteSystematticDuo';
+	src: url(../fonts/WhiteSystematticDuo.ttf); 
+}
+
+
+@media screen and (min-width: 394px) and (max-width: 1159px) { 
+	.logo{
+		width: 250px;
+	}
+	#imgIndex{
+		width: 700px;
+		margin-left: 120px;
+	}
+
+	main ul{
+		margin: 30px;
+		margin-left: 260px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 668px) { 
+	.logo{
+		width: 150px;
+	}
+	#imgIndex{
+		width: 400px;
+		margin-left: 50px;
+	}
+
+	main ul{
+		margin: 30px;
+		margin-left: 90px;
+		padding: 50px;
+	}
+	nav ul li a{
+		width: 110px; 
+		padding: 5px; 
+		font-size: 13px;
+	}
+	main ul li a{
+		font-size: 13px;
+	}
+}
+
+
+
+
+
+
